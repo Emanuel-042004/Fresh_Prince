@@ -5,7 +5,7 @@ section{
     margin-top: 100px;
     }
 
-    #containercards {
+    #displayclothes {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 15rem;
