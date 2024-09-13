@@ -1,8 +1,8 @@
-export const showCard = (fyvContainer, dataFrutasyVerduras) => {
-    dataFrutasyVerduras?.forEach((element) => {
+export const showCard = (clothesContainer, dataclothes) => {
+    dataclothes?.forEach((element) => {
       const { id, name, price, description, collection, img1, img2, img3 } = element;
-      console.log(fyvContainer)
-      fyvContainer.innerHTML += `    
+      console.log(clothesContainer)
+      clothesContainer.innerHTML += `    
          <div class="card text-center my-3" >
               <img id=${id} data-bs-toggle="modal" data-bs-target="#exampleModal${id}" src=${img1} class="card-img-top d-block m-auto w-15" />
               <div class="card-body">
@@ -15,11 +15,10 @@ export const showCard = (fyvContainer, dataFrutasyVerduras) => {
               </div>
             </div>     
                 <div class="modal-body">
-               <img src=${image} class="card-img-top d-block m-auto w-25" alt="..." />
-                <u>${discount}</u> 
+               <img src=${img1} class="card-img-top d-block m-auto w-25" alt="..." /> 
                <p>${description}</p>
                     <h6>${price}</h6>
-                    <h6>${categorie}</h6>
+                    <h6>${collection}</h6>
                    <button type="button"  class="btn d-block btn-success" id=${id} data-bs-toggle="modal" data-bs-target="#exampleModal${id}"
                   ><i class="bi bi-star text-light"> Comprar </i></button>
                     
@@ -31,7 +30,7 @@ export const showCard = (fyvContainer, dataFrutasyVerduras) => {
                <img src=${img2} class="card-img-top d-block m-auto w-25" alt="..." />
                <img src=${img3} class="card-img-top d-block m-auto w-25" alt="..." />
                
-                    <h6>${categorie}</h6>
+                    <h6>${collection}</h6>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
