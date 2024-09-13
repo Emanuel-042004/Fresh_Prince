@@ -28,11 +28,9 @@ export const showCard = (fyvContainer, dataFrutasyVerduras) => {
                 
                 <div class="modal-body">
                 <h5>Otros productos <h5>
-               <img src=${image} class="card-img-top d-block m-auto w-25" alt="..." />
-               <img src=${image} class="card-img-top d-block m-auto w-25" alt="..." />
-               <img src=${image} class="card-img-top d-block m-auto w-25" alt="..." />
-                    <h4><del>${discount}</del></h4>
-               <h6>${price}</h6>
+               <img src=${img2} class="card-img-top d-block m-auto w-25" alt="..." />
+               <img src=${img3} class="card-img-top d-block m-auto w-25" alt="..." />
+               
                     <h6>${categorie}</h6>
                 </div>
                 <div class="modal-footer">
