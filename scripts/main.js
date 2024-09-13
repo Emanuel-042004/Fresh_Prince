@@ -12,3 +12,13 @@ document.addEventListener("DOMContentLoaded", async ()=> {
 
   showCard(clothesContainer, dataclothes);
 })
+
+const container = document.getElementById("containerCards");
+
+document.addEventListener("DOMContentLoaded", async () => {
+  const result = await getData(clothes);
+  console.log(result);
+
+   showCard(clothesContainer, result);
+ 
+});
