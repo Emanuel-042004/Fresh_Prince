@@ -1,0 +1,18 @@
+{
+    "clothes": [
+      {
+        "id": "1",
+        "name": "",
+        "price": 5000,
+        "description": "",
+        "collection": "",
+        "image1": "",
+        "image2": "",
+        "image3": ""
+      }
+      
+    ],
+    
+    "usuarios": [
+    ]
+  }
