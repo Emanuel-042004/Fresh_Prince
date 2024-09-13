@@ -1,12 +1,12 @@
 export const showCard = (clothesContainer, dataclothes) => {
   dataclothes?.forEach((element) => {
-      const { id, name, price, description, collection, img1, img2, img3 } = element;
+      const { id, name, price, description, collection, image1, image2, image3 } = element;
       console.log(dataclothes)
       clothesContainer.innerHTML += `    
          <div class="card" style="width: 18rem;">
-  <img src="${img1}" class="card-img-top" alt="...">
-  <img src="${img2}" class="card-img-top" alt="...">
-  <img src="${img3}" class="card-img-top" alt="...">
+  <img src="${image1}" class="card-img-top" alt="...">
+  <img src="${image2}" class="card-img-top" alt="...">
+  <img src="${image3}" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">${name}</h5>
     <p class="card-text">${description}</p>
