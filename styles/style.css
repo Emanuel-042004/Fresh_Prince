@@ -1,0 +1,20 @@
+section{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    }
+
+    #displayclothes {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15rem;
+        justify-content: center;
+        width: 800px;
+       border-radius: 8px;
+        margin: 20px;
+        width: 300px;
+        padding: 40px;
+        text-align: center;
+          
+      }
